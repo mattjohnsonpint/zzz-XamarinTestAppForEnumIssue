@@ -1,0 +1,11 @@
+<enum-field-mappings>
+
+  <!-- Define a C# enum, mapped to the Java enum -->
+  <mapping jni-class="mylib/SomeEnum" clr-enum-type="MyLib.SomeEnum">
+    <field jni-name="ZERO" clr-name="Zero" value="0" />
+    <field jni-name="ONE" clr-name="One" value="1" />
+    <field jni-name="TWO" clr-name="Two" value="2" />
+    <field jni-name="THREE" clr-name="Three" value="3" />
+  </mapping>
+
+</enum-field-mappings>

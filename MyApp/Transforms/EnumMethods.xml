@@ -1,0 +1,8 @@
+<enum-method-mappings>
+
+  <!-- Update the usage of the enum on the interface method parameter. (Also, not sure why it's "p0" and not "value") -->
+  <mapping jni-interface="mylib/IDoSomething">
+    <method jni-name="doSomething" parameter="p0" clr-enum-type="MyLib.SomeEnum" />
+  </mapping>
+
+</enum-method-mappings>

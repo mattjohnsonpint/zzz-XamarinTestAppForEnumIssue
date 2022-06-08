@@ -1,0 +1,10 @@
+<metadata>
+
+  <!-- Set a default namespace -->
+  <attr path="/api/package[@name='mylib']" name="managedName">MyLib</attr>
+
+  <!-- Fix for:  error CS0101: The namespace 'MyLib' already contains a definition for 'SomeEnum' -->
+  <attr path="/api/package[@name='mylib']/class[@name='SomeEnum']" name="visibility" />
+
+</metadata>
+  
